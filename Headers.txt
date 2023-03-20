@@ -1,0 +1,61 @@
+Request Headers
+
+//The tool that is making the request to the API
+User-Agent: PostmanRuntime/7.31.0
+
+//The Accept request HTTP header indicates which content types, expressed as MIME types, the client is able to understand. */* is default means all
+Accept: */*
+
+//The Cache-Control HTTP header field holds directives (instructions) that control caching
+Cache-Control: no-cache
+
+//Custom token sent by Postman
+Postman-Token: d415a389-ed2b-4ba2-8af5-ecbc77223942
+
+//Who is hosting the API
+Host: www.googleapis.com
+
+//Which encoding types are accepted
+Accept-Encoding: gzip, deflate, br
+
+//The client and the server agree to keep the connection for subsequent requests or responses open
+Connection: keep-alive
+
+
+
+Response Headers
+
+//Payload is in JSON format is used with UTF-8 encoding 
+Content-Type: application/json; charset=UTF-8
+
+//These describe the parts of the request message aside from the method and URL that influenced the content of the response
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+
+//Encoding format
+Content-Encoding: gzip
+
+//Date of response
+Date: Mon, 20 Mar 2023 01:09:13 GMT
+
+//Custom web server developed by Google
+Server: ESF
+
+//Holds directives in both requests and responses that control caching in browsers and shared caches
+Cache-Control: private
+
+//Stops pages from loading when they detect reflected cross-site scripting (XSS) attacks
+X-XSS-Protection: 0
+
+//Used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>
+X-Frame-Options: SAMEORIGIN
+
+//Used by the server to indicate that the MIME types advertised in the Content-Type headers should be followed and not be changed
+X-Content-Type-Options: nosniff
+
+//Indicate that another network location can be treated as authoritative for that origin when making future requests
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+//The data stream is divided into a series of non-overlapping "chunks". The chunks are sent out and received independently of one another
+Transfer-Encoding: chunked
